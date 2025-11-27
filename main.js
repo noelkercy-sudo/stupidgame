@@ -5,8 +5,8 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 let scene, camera, renderer;
 
 // *** IMPORTANT: Use your GitHub Pages URLs if raw.githubusercontent.com fails ***
-const ROOM_URL = 'https://raw.githubusercontent.com/noelkercy-sudo/stupidgame/main/bed.glb'; 
-const BED_URL = 'https://raw.githubusercontent.com/noelkercy-sudo/stupidgame/main/bed2.glb';
+const ROOM_URL = 'https://noelkercy-sudo.github.io/stupidgame/bed.glb'; 
+const BED_URL = 'https://noelkercy-sudo.github.io/stupidgame/bed2.glb';
 
 function init() {
     scene = new THREE.Scene();
